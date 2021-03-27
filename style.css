@@ -27,8 +27,7 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task,
-.main__container_input {
+.task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
