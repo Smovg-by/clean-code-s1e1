@@ -19,7 +19,7 @@
       <p class=main__title>
                 <label for="new-task">Add Item</label>
         <div class="main__container">
-                <input id="new-task" class="task" type="text">
+                <input id="new-task" class="task main__container_input" type="text">
                 <button class="btn main__container_btn">Add</button>
         </div>
       </p>
@@ -28,7 +28,7 @@
         <ul id="incompleteTasks">
           <li class="task-container__item">
                   <input type="checkbox">
-                  <label class="task">Pay Bills</label>
+                  <label class="task-container__item_label">Pay Bills</label>
                   <input type="text">
                   <button class="btn edit">Edit</button>
                   <button class="btn delete">
@@ -37,8 +37,8 @@
           </li>
           <li class="task-container__item editMode">
                   <input type="checkbox">
-                  <label class="task">Go Shopping</label>
-                  <input type="text" value="Go Shopping" class="task">
+                  <label class="task-container__item_label">Go Shopping</label>
+                  <input type="text" value="Go Shopping" class="task task-container__item_input">
                   <button class="btn edit">Save</button>
                   <button class="btn delete">
                   <img src="./remove.svg" alt="">
@@ -51,8 +51,8 @@
         <ul id="completed-tasks">
           <li class="task-container__item">
                   <input type="checkbox" checked>
-                  <label class="task">See the Doctor</label>
-                  <input type="text" class="task"><button class="btn edit">Edit</button>
+                  <label class="task task-container__item_label">See the Doctor</label>
+                  <input type="text" class="task task-container__item_input"><button class="btn edit">Edit</button>
                   <button class="btn delete"><img src="./remove.svg" alt=""></button>
           </li>
         </ul>
