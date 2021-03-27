@@ -60,7 +60,7 @@ button{
   color: #3a3A3a;
 }
 /* Heading */
-.task-conatiner__heading,
+.task-container__heading,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -99,6 +99,7 @@ label[for="new-task"] {
 }
 
 /* Task list */
+
 .task-container__item {
   overflow: hidden;
   padding: 20px 0;
