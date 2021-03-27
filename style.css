@@ -94,7 +94,7 @@ label[for="new-task"] {
 #new-task {
   width: 318px;
 }
-.task-row-button:hover {
+.main__container_btn:hover {
   color: #0FC57C;
 }
 
