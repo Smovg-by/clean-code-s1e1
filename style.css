@@ -127,15 +127,15 @@ label[for="new-task"] {
 .task-container__item > input[type="text"] {
   width: 226px;
 }
-.task-container__item > .delete:hover {
+.task-container__item > .task-container__item_btn_delete:hover {
   color: #CF2323;
 }
-.delete img {
+.task-container__item_btn_delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete img:hover {
+.task-container__item_btn_delete img:hover {
   transform: rotateZ(0);
 }
 
